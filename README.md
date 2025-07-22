@@ -115,6 +115,9 @@ I’ve implemented unit tests for the core business logic. It covers:
 - Edge cases (user not found, empty transaction lists)
 - Business logic validation (balance calculations, transaction processing)
 
-If I had more time using TDD, I would first create more failing tests for the required features, then implement the working core logic and finally refactor the code to improve implementation (red-green-refactor). I’d definitely focus more on integration tests and security testing because gaming economy that can be exchanged with real currency demands exceptional reliability since financial errors directly impact user trust and business revenue.
+If I had more time using TDD, I would first create more failing tests for the required features,
+then implement the working core logic and finally refactor the code to improve implementation (red-green-refactor).
+I’d definitely focus more on integration tests and security testing because gaming economy that can be exchanged
+with real world currency demands exceptional reliability since financial errors directly impact user trust and business revenue.
 
 ```
