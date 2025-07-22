@@ -4,6 +4,9 @@
 /build
 /tmp
 
+# Test files
+/coverage
+
 # Logs
 logs
 *.log
@@ -18,7 +21,18 @@ lerna-debug.log*
 .env.development
 .env.test
 .env.production
+.env.local
 
 # temp directory
 .temp
 .tmp
+
+# Database files
+*.sqlite
+*.db
+
+# IDE and Editor files
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+
